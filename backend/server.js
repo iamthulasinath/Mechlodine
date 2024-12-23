@@ -9,7 +9,7 @@ app.use(cors()); // Enable CORS for requests from the frontend
 app.use(express.json()); // To parse JSON in requests
 
 // MongoDB Connection String (ensure this is correctly configured)
-const dbURI = 'mongodb+srv://iamthulasinath:jPaVvzMo5pmmd5jl@samplecluster.abpfq.mongodb.net/itemsArray?retryWrites=true&w=majority&appName=sampleCluster';
+const dbURI = 'mongodb+srv://iamthulasinath:jPaVvzMo5pmmd5jl@samplecluster.abpfq.mongodb.net/itemsArray?retryWrites=true&w=majority&appName=Cluster0';
 
 // Connect to MongoDB
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
