@@ -31,7 +31,7 @@ const Cart = () => {
 
           try {
             const response = await axios.post(
-              "http://localhost:3001/orders",
+              "https://mechlodine.onrender.com/orders",
               newOrder
             );
             alert(response.data.message);
