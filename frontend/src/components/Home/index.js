@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/getItem")
+      .get("https://mechlodine.onrender.com/getItem")
       .then((response) => setItems(response.data))
       .catch((err) => console.error("Failed to fetch items:", err));
   }, []);
